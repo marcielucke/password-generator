@@ -1,13 +1,14 @@
 var generateBtn = document.querySelector("#generate");
-
-
-function generatePassword () {
-
 var length = prompt("Please pick a number from 8 to 128.");
 var useLowerCase = confirm("Do you want to use lowercase?");
 var useUpperCase = confirm("Do you want to use uppercase?");
 var specialLetters = confirm("Do you want to use special characters?");
 var numbers = confirm("Do you want to use numbers?");
+
+
+function generatePassword () {
+
+
 characters = ("");
 var result = ("");
 
